@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="illustrations.css">
+	<title>ILLUSTRATIONS</title>
+	<h3>JAIK PUPPYTEETH</h3>
+<nav class="navigation">
+	<ul>
+	<li><a id="HOME"<link rel="stylesheet" type="text/css" href="index.html">HOME</a></li>
+    </ul>
+</nav>
+</head>
+<body>
+
+<a class="back-button" onclick="plusDivs(-1)">&#10094;</a>
+<a class="forward-button" onclick="plusDivs(+1)">&#10095;</a>
+
+<img class="mySlides" src="http://i.imgur.com/yvDOmuE.jpg">
+
+<img class="mySlides" src="http://i.imgur.com/yvDOmuE.jpg">
+
+<img class="mySlides" src="http://i.imgur.com/a2oBLLS.jpg">
+
+<img class="mySlides" src="http://i.imgur.com/Dq04TbR.jpg">
+
+<img class="mySlides" src="http://i.imgur.com/hY7Lqrj.jpg">
+
+<img class="mySlides" src="http://i.imgur.com/MkZu2mh.jpg">
+
+<img class="mySlides" src="http://i.imgur.com/TakGNf0.jpg">
+
+<img class="mySlides" src="http://i.imgur.com/cS8ap6o.jpg">
+
+<img class="mySlides" src="http://i.imgur.com/Xz7RfuN.jpg">
+
+<img class="mySlides" src="http://i.imgur.com/3uYCdbN.jpg">
+
+
+<script type="text/javascript">
+//kept breaking my page while doing the while loop and ran out of time so I had to turn something in//
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+	showDivs(slideIndex += n);
+}
+function showDivs (n){
+	var i;
+	var x = document.getElementsByClassName("mySlides");
+	if (n > x.length) {slideIndex=1}
+    if (n < 1) {slideIndex=x.length}
+    	for ( i = 0 ; i < x.length; i++){
+    		x[i].style.display = "none";
+    	}
+        x[slideIndex-1].style.display="block";
+}
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+h3{
+	font-size: 25px;
+	display: inline-block;
+	margin margin-left: 30px;
+	display: flex;
+	color: white;
+}
+
+h3:hover{
+	color: black;
+}
+
+
+
+.navigation{
+	color:white;
+	display: flex;
+}
+
+.navigation:hover{
+	color: black;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+a:hover{
+	color: black;
+}
+
+
+ul{
+
+	margin-left: -40px;
+	line-height: 350%;
+	color:white;
+}
+
+ul:hover{
+	color: black;
+
+}
+
+
+img{
+	margin: 0 auto;
+	width: 635px;
+	height: 725px;
+	margin-top: -180px;
+	position: relative;
+}
+
+.flex-center{
+	color:white;
+	display: flex;
+	justify-content: center;
+}
+
+body{
+	background-color: rgb(240,220,255);
+	font-family: 'Montserrat', sans-serif;
+	font-weight: thin;
+
+}
